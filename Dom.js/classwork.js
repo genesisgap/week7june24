@@ -23,10 +23,12 @@ nine.style.backgroundColor = 'white'
 lists[9].style.background = 'linear-gradient(90deg, aqua 30%, yellow 30%, yellow 60%, red 60%)'
 
 const april = document.getElementsByClassName('april')
-lists[4].style.backgroundColor = 'blue'
+lists[4].style.backgroundColor = 'blue' 
+lists[4].textContent = 'I love Arsenal Football Club'
 
 const dec = document.getElementsByClassName('dec')
 lists[6].style.backgroundColor = 'white'
+lists[6].textContent = 'I hate Chelsea Football Club'
 
 const may = document.getElementsByTagName('li')
 lists[3].textContent = 'I am very tired'
