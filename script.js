@@ -1,10 +1,14 @@
-let sentence = 'The quick brown fox jumps over the lazy dog'
+// let sentence = 'The quick brown fox jumps over the lazy dog'
 
-// change uppercase
-sentence = sentence.toUpperCase()
+// // change uppercase
+// sentence = sentence.toUpperCase()
 
-// change to lowercase
-sentence = sentence.toLowerCase()
+// // change to lowercase
+// sentence = sentence.toLowerCase()
 
-console.log(sentence)
+// console.log(sentence)
+
+let count = 6 + 9
+
+console.log(count)
 

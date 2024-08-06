@@ -1,0 +1,16 @@
+{
+  "name": "week7june24",
+  "version": "1.0.0",
+  "description": "Fundamentals of Java Script",
+  "main": "Dom.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./script.css -o ./digi.css --watch"
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.7"
+  }
+}

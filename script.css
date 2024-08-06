@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+
+section{
+    @apply min-h-screen bg-gradient-to-tl from-fuchsia-700 from-30% to-pink-500 to-30%
+    flex md:flex-row flex-col justify-center md:space-x-6 space-y-0 items-center
+}
+
+div{
+    @apply bg-slate-200 h-[30vh] w-[300px] flex flex-col text-center text-lg
+}
+
+div span:first-of-type{
+    @apply h-3/5 bg-slate-700 text-white text-2xl pt-4
+
+}
