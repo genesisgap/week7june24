@@ -2,17 +2,30 @@
 @tailwind utilities;
 @tailwind components;
 
-
-section{
-    @apply min-h-screen bg-gradient-to-tl from-fuchsia-700 from-30% to-pink-500 to-30%
-    flex md:flex-row flex-col justify-center md:space-x-6 space-y-0 items-center
+h1 { 
+    @apply flex items-center justify-center text-red-900 text-7xl
 }
 
-div{
-    @apply bg-slate-200 h-[30vh] w-[300px] flex flex-col text-center text-lg
+main{
+    @apply bg-gradient-to-tl from-fuchsia-700 from-30% to-pink-500 to-30% min-h-screen
+    flex items-center justify-center space-x-8
 }
 
-div span:first-of-type{
-    @apply h-3/5 bg-slate-700 text-white text-2xl pt-4
+main div{
+    @apply h-[20vh] w-[200px] pt-3 flex flex-col justify-between text-center
+}
+
+main div>:first-child{
+    @apply h-[12vh] text-3xl bg-white flex items-center justify-center
 
 }
+
+main div>:last-child{
+    @apply bg-slate-950 capitalize text-white text-lg
+
+}
+
+main div:last-of-type > :first-child{
+    @apply bg-black text-white
+}
+
